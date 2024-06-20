@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venda de Milho</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Venda de Milho</h1>
+            <nav>
+                <ul>
+                    <li><a href="#produtos">Produtos</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="banner">
+            <div class="container">
+                <h2>Milhos frescos para todos os gostos</h2>
+                <p>Descubra nossa variedade de milhos e ingredientes frescos.</p>
+            </div>
+        </section>
+
+        <section id="produtos">
+            <div class="container">
+                <h2>Nossos Produtos</h2>
+                <div class="grid-produtos">
+                    <article class="produto">
+                        <img src="milho-verde.jpg" alt="Milho Verde">
+                        <h3>Milho Verde</h3>
+                        <p>Milho fresco para cozinhar ou assar.</p>
+                        <span class="preco">R$ 3,00 / unidade</span>
+                        <button>Comprar</button>
+                    </article>
+                    
+                    <article class="produto">
+                        <img src="pipoca-milho.jpg" alt="Milho para Pipoca">
+                        <h3>Milho para Pipoca</h3>
+                        <p>Milho especial para fazer pipoca em casa.</p>
+                        <span class="preco">R$ 4,00 / pacote</span>
+                        <button>Comprar</button>
+                    </article>
+
+                    <article class="produto">
+                        <img src="milho-colorido.jpg" alt="Milho Colorido">
+                        <h3>Milho Colorido</h3>
+                        <p>Milho com variedade de cores para decoração ou consumo.</p>
+                        <span class="preco">R$ 5,00 / unidade</span>
+                        <button>Comprar</button>
+                    </article>
+                    
+                    <article class="produto">
+                        <img src="milho-doce.jpg" alt="Milho Doce">
+                        <h3>Milho Doce</h3>
+                        <p>Milho com sabor adocicado, ideal para sobremesas.</p>
+                        <span class="preco">R$ 6,00 / unidade</span>
+                        <button>Comprar</button>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre">
+            <div class="container">
+                <h2>Sobre Nós</h2>
+                <p>Somos apaixonados por milho e queremos compartilhar essa paixão com você. Nossos produtos são cultivados com cuidado e selecionados para garantir qualidade e frescor.</p>
+            </div>
+        </section>
+
+        <section id="contato">
+            <div class="container">
+                <h2>Entre em Contato</h2>
+                <form action="#">
+                    <div class="form-group">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                    </div>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Venda de Milho. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
